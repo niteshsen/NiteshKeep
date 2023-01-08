@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Header{
+  height: 10vh;
+  width: 100%;
+  background-color: #FFC300;
+  color: red;
+  margin-top: 0;
+}
+
+
+.Header .Keep {
+  font-size: 25px;
+  box-shadow: 1px 0 10px white;
+  margin-left: 10%;
+  position: absolute;
+  top: 20px;
+  color: white;
+  font-weight: 800;
+  border-bottom: 3px solid white;
+  /* border-right: 3px solid white; */
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  min-height: auto;
+}
+
+.Footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  line-height: 30px;
+  
+}
+
+.add_note{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 26%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto; 
+  /* border: 2px solid black; */
+  box-shadow: 0px 10px 14px 1px rgba(0,0,0,0.1);
+  border-radius:15px;
+  
+}
+
+.add_note input{
+  outline: hidden;
+  border: hidden;
+  font-size: large;
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  padding-right: 50%;
+}
+
+.add_note textarea{
+  outline: hidden;
+  border: hidden;
+  font-size: large;
+  resize: none;
+  padding-right: 52%;
+}
+
+.add_note .plus_icon{
+  position: relative;
+  /* top:.1rem */
+  left: 10.3rem;
+  color: #FFC300;
+  width: 20px;
+  height: 30px;
+  /* background-color: aqua; */
+  box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.1);
+  border-radius:70px;
+
+}
+
+
+.add_note .plus_icon:hover{
+  background-color: #FFC300;
+  color: #fff ;
+}
+
+
+.note{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 26%;
+  margin-top: 30px;
+  /* margin-left: auto; */
+  margin-right: auto; 
+  /* border: 2px solid black; */
+  box-shadow: 0px 10px 14px 1px rgba(0,0,0,0.1);
+  border-radius:15px;
+}
+
+
+.note .DeleteIcon{
+  position: relative;
+  /* top:.1rem */
+  left: 10.3rem;
+  color: #FFC300;
+  width: 20px;
+  height: 30px;
+  /* background-color: aqua; */
+  box-shadow: 0px 8px 10px 1px rgba(0,0,0,0.1);
+  border-radius:70px;
+}
+
+.note .DeleteIcon:hover{
+ background-color: #FFC300;
+ color: #fff;
+
+}
