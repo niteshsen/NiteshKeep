@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NiteshKeep/static/css/main.48931792.css",
+    "main.js": "/NiteshKeep/static/js/main.aa6a69ef.js",
+    "index.html": "/NiteshKeep/index.html",
+    "main.48931792.css.map": "/NiteshKeep/static/css/main.48931792.css.map",
+    "main.aa6a69ef.js.map": "/NiteshKeep/static/js/main.aa6a69ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48931792.css",
+    "static/js/main.aa6a69ef.js"
+  ]
+}
